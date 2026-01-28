@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="234b5076-fadc-4944-bd74-af03c1196ea5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/store/selectors/index.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +72,11 @@
       <recent name="\\wsl.localhost\Ubuntu\home\japheth\next-starter\src\components\ui\feedback\spinner" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="\\wsl.localhost\Ubuntu\home\japheth\redux-practice\src\store" />
       <recent name="\\wsl.localhost\Ubuntu\home\japheth\redux-practice\src\components\ui" />
       <recent name="\\wsl.localhost\Ubuntu\home\japheth\redux-practice\src\app\api" />
       <recent name="\\wsl.localhost\Ubuntu\home\japheth\next-starter\src\theme" />
       <recent name="\\wsl.localhost\Ubuntu\home\japheth\next-starter\src\components\ui\feedback\spinner" />
-      <recent name="\\wsl.localhost\Ubuntu\home\japheth\next-starter\src\components\shared" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
@@ -113,7 +113,7 @@
       <workItem from="1769496911669" duration="10476000" />
       <workItem from="1769586478799" duration="1590000" />
       <workItem from="1769588125431" duration="24397000" />
-      <workItem from="1769613663719" duration="15609000" />
+      <workItem from="1769613663719" duration="16390000" />
     </task>
     <servers />
   </component>
