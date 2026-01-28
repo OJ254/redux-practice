@@ -7,6 +7,7 @@ import { combineReducers } from '@reduxjs/toolkit';
 // Import your individual slice reducers here
 // Example placeholders; replace/add slices per project
 import themeReducer from './slices/themeSlice';
+import userReducer from './slices/userSlice';
 // Add more as needed
 
 // Combine reducers
