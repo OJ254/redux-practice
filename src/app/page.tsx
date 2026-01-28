@@ -29,8 +29,8 @@ const Page = () => {
   return (
     <div className='body text-base-content min-h-screen'>
       {/* Header */}
-      <header className='header'>
-        <div className='navbar bg-base-200 px-6 shadow'>
+      <header className='header flex justify-center py-8'>
+        <div className='navbar bg-base-200 max-w-8xl px-6 shadow'>
           <div className='flex-1'>
             <h3>Starter Template</h3>
           </div>
@@ -40,29 +40,34 @@ const Page = () => {
       </header>
 
       <main>
-        {/*Theme Switcher*/}
-        <section>
-          <ThemeSwitcher />
-        </section>
-        {/* Hero */}
-        <section className='primary-surface hero px-6 py-12'>
-          <div className='hero-content prose max-w-3xl flex-col text-center'>
-            <h1>Next.js 16 + Tailwind 4 + DaisyUI 5 + MUI 7</h1>
+        <section className='primary-surface hero justify-center px-6 py-12'>
+          {/*Theme Switcher*/}
+          <div className='hero-content w-full'>
+            <div className='container w-full max-w-7xl'>
+              <ThemeSwitcher />
+            </div>
+          </div>
+          {/* Hero */}
+          <div className='hero-content'>
+            <div className='prose container max-w-3xl flex-col text-center'>
+              <h1>Next.js 16 + Tailwind 4 + DaisyUI 5 + MUI 7</h1>
 
-            <div className='grid place-items-center'>
-              <p className='opacity-80'>
-                A simple starter page to test themes, UI components, and layout
-                structure. Edit <code className='code'>page.tsx</code> to begin.
-              </p>
+              <div className='grid place-items-center'>
+                <p className='opacity-80'>
+                  A simple starter page to test themes, UI components, and
+                  layout structure. Edit <code className='code'>page.tsx</code>{' '}
+                  to begin.
+                </p>
 
-              <div className='flex gap-4'>
-                <Button variant='contained' className='primary-btn-contained'>
-                  Primary Action
-                </Button>
+                <div className='flex gap-4'>
+                  <Button variant='contained' className='primary-btn-contained'>
+                    Primary Action
+                  </Button>
 
-                <Button variant='outlined' className='primary-btn-outlined'>
-                  Secondary Action
-                </Button>
+                  <Button variant='outlined' className='primary-btn-outlined'>
+                    Secondary Action
+                  </Button>
+                </div>
               </div>
             </div>
           </div>

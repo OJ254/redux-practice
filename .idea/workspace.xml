@@ -5,31 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="234b5076-fadc-4944-bd74-af03c1196ea5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/shared/AllUsersList/AllUsersList.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/SelectedUserCard/SelectedUserCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/providers/ReduxProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/hooks.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/slices/themeSlice.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/slices/userSlice.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/constants.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/api.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/api/api.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/ThemeSwitcher/ThemeSwitcher.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/ThemeSwitcher/ThemeSwitcher.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/shared/ThemeSwitcher/ThemeToggle.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/ThemeSwitcher/ThemeToggle.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/Provider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/Provider.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/rootReducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/rootReducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/slices/themeSlice.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/slices/userSlice.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/theme/ThemeSync.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/theme/ThemeSync.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/types/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/types/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +113,7 @@
       <workItem from="1769496911669" duration="10476000" />
       <workItem from="1769586478799" duration="1590000" />
       <workItem from="1769588125431" duration="24397000" />
-      <workItem from="1769613663719" duration="14935000" />
+      <workItem from="1769613663719" duration="15609000" />
     </task>
     <servers />
   </component>
