@@ -1,0 +1,275 @@
+
+    /* =========================
+       BUTTONS
+       ========================= */
+
+    /* Primary */
+    .MuiButton-root.btn-primary-contained {
+        @apply bg-primary text-primary-content;
+    }
+
+    .MuiButton-root.btn-primary-outlined {
+        @apply border border-primary text-primary bg-transparent;
+    }
+
+    .MuiButton-root.btn-primary-text {
+        @apply text-primary bg-transparent;
+    }
+
+    /* Secondary */
+    .MuiButton-root.btn-secondary-contained {
+        @apply bg-secondary text-secondary-content;
+    }
+
+    .MuiButton-root.btn-secondary-outlined {
+        @apply border border-secondary text-secondary bg-transparent;
+    }
+
+    .MuiButton-root.btn-secondary-text {
+        @apply text-secondary bg-transparent;
+    }
+
+    /* Accent */
+    .MuiButton-root.btn-accent-contained {
+        @apply bg-accent text-accent-content;
+    }
+
+    .MuiButton-root.btn-accent-outlined {
+        @apply border border-accent text-accent bg-transparent;
+    }
+
+    .MuiButton-root.btn-accent-text {
+        @apply text-accent bg-transparent;
+    }
+
+    /* Semantic */
+    .MuiButton-root.btn-success-contained {
+        @apply bg-success text-success-content;
+    }
+
+    .MuiButton-root.btn-warning-contained {
+        @apply bg-warning text-warning-content;
+    }
+
+    .MuiButton-root.btn-error-contained {
+        @apply bg-error text-error-content;
+    }
+
+    .MuiButton-root.btn-info-contained {
+        @apply bg-info text-info-content;
+    }
+
+
+    /* Hover */
+    .MuiButton-root:hover {
+        filter: brightness(0.9);
+    }
+
+    /* Disabled */
+    .MuiButton-root.Mui-disabled {
+        @apply opacity-50 cursor-not-allowed;
+    }
+
+
+    /* =========================
+       ICON BUTTON
+       ========================= */
+
+    .MuiIconButton-root.icon-primary {
+        @apply text-primary;
+    }
+
+    .MuiIconButton-root.icon-secondary {
+        @apply text-secondary;
+    }
+
+    .MuiIconButton-root.icon-accent {
+        @apply text-accent;
+    }
+
+    .MuiIconButton-root.icon-success {
+        @apply text-success;
+    }
+
+    .MuiIconButton-root.icon-warning {
+        @apply text-warning;
+    }
+
+    .MuiIconButton-root.icon-error {
+        @apply text-error;
+    }
+
+
+    /* =========================
+       CHIP
+       ========================= */
+
+    .MuiChip-root.chip-primary {
+        @apply bg-primary text-primary-content;
+    }
+
+    .MuiChip-root.chip-secondary {
+        @apply bg-secondary text-secondary-content;
+    }
+
+    .MuiChip-root.chip-accent {
+        @apply bg-accent text-accent-content;
+    }
+
+    .MuiChip-root.chip-success {
+        @apply bg-success text-success-content;
+    }
+
+    .MuiChip-root.chip-warning {
+        @apply bg-warning text-warning-content;
+    }
+
+    .MuiChip-root.chip-error {
+        @apply bg-error text-error-content;
+    }
+
+    .MuiChip-root.chip-info {
+        @apply bg-info text-info-content;
+    }
+
+
+    /* =========================
+       ALERT
+       ========================= */
+
+    .MuiAlert-standardSuccess {
+        @apply bg-success text-success-content;
+    }
+
+    .MuiAlert-standardError {
+        @apply bg-error text-error-content;
+    }
+
+    .MuiAlert-standardWarning {
+        @apply bg-warning text-warning-content;
+    }
+
+    .MuiAlert-standardInfo {
+        @apply bg-info text-info-content;
+    }
+
+
+    /* =========================
+       BADGE
+       ========================= */
+
+    .MuiBadge-badge.badge-primary {
+        @apply bg-primary text-primary-content;
+    }
+
+    .MuiBadge-badge.badge-secondary {
+        @apply bg-secondary text-secondary-content;
+    }
+
+    .MuiBadge-badge.badge-error {
+        @apply bg-error text-error-content;
+    }
+
+
+    /* =========================
+       TABS
+       ========================= */
+
+    .MuiTab-root.tab-primary.Mui-selected {
+        @apply text-primary border-b-2 border-primary;
+    }
+
+    .MuiTabs-indicator {
+        @apply bg-primary;
+    }
+
+
+    /* =========================
+       INPUTS / TEXTFIELDS
+       ========================= */
+
+    .MuiInputBase-root.input-primary {
+        @apply border border-primary;
+    }
+
+    .MuiInputLabel-root.label-primary {
+        @apply text-primary;
+    }
+
+    .MuiOutlinedInput-root.outline-primary .MuiOutlinedInput-notchedOutline {
+        @apply border-primary;
+    }
+
+
+    /* =========================
+       PAPER / CARD
+       ========================= */
+
+    .MuiPaper-root.paper-base {
+        @apply bg-base-100 text-base-content;
+    }
+
+    .MuiCard-root.card-base {
+        @apply bg-base-100 text-base-content;
+    }
+
+
+    /* =========================
+       SWITCH
+       ========================= */
+
+    .MuiSwitch-root.switch-primary .MuiSwitch-thumb {
+        @apply bg-primary;
+    }
+
+    .MuiSwitch-root.switch-secondary .MuiSwitch-thumb {
+        @apply bg-secondary;
+    }
+
+
+    /* =========================
+       CHECKBOX
+       ========================= */
+
+    .MuiCheckbox-root.checkbox-primary.Mui-checked {
+        @apply text-primary;
+    }
+
+    .MuiCheckbox-root.checkbox-secondary.Mui-checked {
+        @apply text-secondary;
+    }
+
+
+    /* =========================
+       RADIO
+       ========================= */
+
+    .MuiRadio-root.radio-primary.Mui-checked {
+        @apply text-primary;
+    }
+
+    .MuiRadio-root.radio-secondary.Mui-checked {
+        @apply text-secondary;
+    }
+
+
+    /* =========================
+       PROGRESS / LOADING
+       ========================= */
+
+    .MuiLinearProgress-root.progress-primary {
+        @apply bg-primary;
+    }
+
+    .MuiCircularProgress-root.progress-primary {
+        @apply text-primary;
+    }
+
+
+    /* =========================
+       TOOLTIP
+       ========================= */
+
+    .MuiTooltip-tooltip.tooltip-base {
+        @apply bg-neutral text-neutral-content;
+    }
