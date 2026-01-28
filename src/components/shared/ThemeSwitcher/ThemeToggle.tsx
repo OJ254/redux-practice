@@ -6,7 +6,7 @@ import Brightness4Icon from '@mui/icons-material/Brightness4';
 import LightModeIcon from '@mui/icons-material/LightMode';
 import DarkModeIcon from '@mui/icons-material/DarkMode';
 import { useDispatch, useSelector } from 'react-redux';
-import { toggleTheme, selectTheme } from '@/redux/slices/themeSlice';
+import { toggleTheme, selectTheme } from '@/store/slices/themeSlice';
 
 const ThemeToggle = () => {
   const theme = useSelector(selectTheme);

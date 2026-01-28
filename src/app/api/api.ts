@@ -1,3 +1,5 @@
+// @/api/api.ts
+
 'use client';
 
 /**
@@ -46,13 +48,14 @@ import axios, {
   AxiosError,
   AxiosResponse,
 } from 'axios';
+import { PROXY_API_URL } from '@/utils/constants';
 
 interface ErrorResponse {
   message?: string;
 }
 
 const api = axios.create({
-  baseURL: process.env.NEXT_PUBLIC_API_URL,
+  baseURL: PROXY_API_URL,
   timeout: 5000,
   headers: {
     'Content-Type': 'application/json',

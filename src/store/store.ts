@@ -2,6 +2,7 @@
 'use client'; // Required for redux-persist in Next.js (browser-only APIs)
 
 import { configureStore } from '@reduxjs/toolkit';
+import logger from 'redux-logger';
 import {
   persistStore,
   persistReducer,
@@ -36,13 +37,19 @@ const persistedReducer = persistReducer(persistConfig, rootReducer);
 // Configure store
 export const store = configureStore({
   reducer: persistedReducer,
-  middleware: getDefaultMiddleware =>
-    getDefaultMiddleware({
+  middleware: getDefaultMiddleware => {
+    const middlewares = getDefaultMiddleware({
       serializableCheck: {
-        // Ignore redux-persist action types
         ignoredActions: [FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER],
       },
-    }),
+    });
+
+    if (process.env.NODE_ENV === 'development') {
+      return middlewares.concat(logger);
+    }
+
+    return middlewares;
+  },
   devTools: process.env.NODE_ENV !== 'production',
 });
 

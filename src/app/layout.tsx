@@ -4,8 +4,8 @@ import { theme, ThemeSync } from '@/theme';
 
 import type { Metadata } from 'next';
 import '@/app/globals.css';
-import { Providers } from '@/redux/Provider';
 import { ReactNode } from 'react';
+import ReduxProvider from '@/providers/ReduxProvider';
 
 export const metadata: Metadata = {
   title: 'Create Next App',
@@ -21,10 +21,10 @@ export default function RootLayout({
     <html lang='en' suppressHydrationWarning>
       <body>
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
-          <Providers>
+          <ReduxProvider>
             <ThemeSync />
             <ThemeProvider theme={theme}>{children}</ThemeProvider>
-          </Providers>
+          </ReduxProvider>
         </AppRouterCacheProvider>
       </body>
     </html>

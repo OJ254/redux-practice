@@ -14,6 +14,7 @@ import userReducer from './slices/userSlice';
 // Keys here become top-level state keys: state.auth, state.user, state.ui
 const rootReducer = combineReducers({
   theme: themeReducer, // Authentication/session info
+  user: userReducer, // User info
   // Add more slices here as needed
 });
 

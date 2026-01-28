@@ -2,7 +2,7 @@
 
 import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { selectTheme, setTheme } from '@/redux/slices/themeSlice';
+import { selectTheme, setTheme } from '@/store/slices/themeSlice';
 import { themeChange } from 'theme-change';
 
 const ThemeSync = () => {

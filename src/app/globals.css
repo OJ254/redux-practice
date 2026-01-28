@@ -285,6 +285,14 @@ h6 {
   @apply text-xs leading-relaxed font-normal sm:text-sm;
 }
 
+.primary-text {
+  @apply text-base-content;
+}
+
+.secondary-text {
+  @apply text-base-content/70;
+}
+
 /*!* ======================================================*/
 /*   TYPOGRAPHY , CAPTION & MICROCOPY*/
 /*   ====================================================== *!*/
@@ -312,7 +320,7 @@ h6 {
 /*   ====================================================== *!*/
 
 .primary-btn-contained {
-  @apply bg-primary text-primary-content;
+  @apply bg-primary text-primary-content btn-soft;
 }
 
 .primary-btn-outlined {
@@ -395,8 +403,20 @@ h6 {
 /*  @apply bg-[#3f4257] dark:bg-[#2f303c];*/
 /*}*/
 
-.surface {
-  @apply card bg-base-100 shadow;
+.primary-surface {
+  @apply card bg-base-100;
+}
+
+.primary-surface-hover {
+  @apply card hover:bg-base-200 transition-colors;
+}
+
+.secondary-surface {
+  @apply card bg-base-200;
+}
+
+.secondary-surface-hover {
+  @apply card hover:bg-base-300 transition-colors;
 }
 
 /*.surface-hover {*/

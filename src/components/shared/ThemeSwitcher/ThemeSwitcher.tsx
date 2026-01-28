@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { setTheme, selectTheme } from '@/redux/slices/themeSlice';
+import { setTheme, selectTheme } from '@/store/slices/themeSlice';
 import { themeChange } from 'theme-change';
 
 const contrastThemes = [
@@ -104,7 +104,7 @@ const ThemeSwitcher = () => {
     allThemes.find(t => t.value === currentTheme)?.label || 'None';
 
   return (
-    <div className='bg-base-100 w-full p-6'>
+    <div className='primary-surface w-full p-6'>
       <p className='mb-4 font-semibold'>Active theme: {activeThemeLabel}</p>
       <div className='tabs tabs-lift mt-4'>
         <input
